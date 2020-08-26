@@ -4,7 +4,7 @@ function sortArray(arr, sortType) {
         'desc' : (a, b)=> b-a,
     };
 
-    arr.sort(sorter[sortType]);
+    arr.sort(sort[sortType]);
     
     return arr;
 }
